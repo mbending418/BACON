@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bacon"
+version = "0.1.0"
+description = "Python Package Implementing the algorithms in \"BACON: Blocked Adaptive Computationally Efficient Outlier Nominations\""
+authors = ["Michael Bending <michael.a.bending@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.4.1"
+scipy = "^1.17.0"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.19.1"
+black = "^26.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
